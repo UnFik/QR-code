@@ -22,12 +22,16 @@ img {
 }
 
 p {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 415px) {
   .card {
     width: 320px !important;
     margin-top: 5em !important;
+  }
+
+  .caption_title {
+    font-size: 20px;
   }
 }
